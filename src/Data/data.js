@@ -40,14 +40,6 @@ export const expertiseData = [
         title:'Reading',
         Icon: Icon.Book
     },
-    {
-        title:'Android',
-        Icon: Icon.Smartphone
-    },
-    {
-        title:'Other Activity',
-        Icon: Icon.Activity
-    },
 ]
 export const servicesData = [
     {
