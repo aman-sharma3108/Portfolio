@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 
 export default function GetInTouch(){
     return(
-        <section className="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800" id="contact">
+        <section className="relative md:py-24 py-8 bg-gray-50 dark:bg-slate-800" id="contact">
         <div className="container">
             <div className="grid grid-cols-1 pb-8 text-center">
                 <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Get In Touch !</h3>
 
-                <p className="text-slate-400 max-w-xl mx-auto text-[15px]">Obviously I'm a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
+                <p className="text-slate-400 max-w-xl mx-auto text-[15px]">Feel free to get in touch with me. And if you have any feedback I would appreciate that as well.</p>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-12 md:grid-cols-2 mt-8 items-center gap-[30px]">
