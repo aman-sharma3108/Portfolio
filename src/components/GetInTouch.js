@@ -72,7 +72,7 @@ export default function GetInTouch(){
 
                             <div className="flex-1 ms-6">
                                 <h5 className="text-[17px] dark:text-white mb-2 font-medium">Location</h5>
-                                <p className="text-slate-400 text-[15px] mb-2">Box Hill North VIC 3129 123456789</p>
+                                <p className="text-slate-400 text-[15px] mb-2">Box Hill North VIC 3129 12345678912q3123wewerwe</p>
                             </div>
                         </div>
                     </div>
