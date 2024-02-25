@@ -1,11 +1,4 @@
-/* Template Name: Dennis - Tailwind CSS Personal Portfolio Template
-   Author: Shreethemes
-   Email: support@shreethemes.in
-   Website: https://shreethemes.in
-   Version: 1.0.0
-   Created: March 2022
-   File: Main Css File
-*/
+
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Lexend:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 /* ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
@@ -1114,7 +1107,7 @@ video {
 }
 .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/bg\/bg3\.jpg\'\)\]{
   background-image: url('../../assets/images/bg/bg3.jpg') !important;
-} 
+}
 .bg-gradient-to-b{
   background-image: -webkit-gradient(linear, left top, left bottom, from(var(--tw-gradient-stops))) !important;
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops)) !important;
