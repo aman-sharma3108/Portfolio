@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6c288783.css",
+    "main.js": "/static/js/main.5fa744b2.js",
+    "static/js/787.36b3e717.chunk.js": "/static/js/787.36b3e717.chunk.js",
+    "static/media/Swinburne.zip": "/static/media/Swinburne.d2e335692a0e2532d988.zip",
+    "static/media/materialdesignicons-webfont.eot": "/static/media/materialdesignicons-webfont.4a8138d1cb5d6b81b4ce.eot",
+    "static/media/materialdesignicons-webfont.ttf?v=7.2.96": "/static/media/materialdesignicons-webfont.06045137a6bebf225b52.ttf",
+    "static/media/materialdesignicons-webfont.woff?v=7.2.96": "/static/media/materialdesignicons-webfont.2e4e6992228f744fd7c8.woff",
+    "static/media/materialdesignicons-webfont.woff2?v=7.2.96": "/static/media/materialdesignicons-webfont.2acd2598cbed682569c8.woff2",
+    "static/media/bg2.jpg": "/static/media/bg2.26c7db4742e0970eb249.jpg",
+    "static/media/resume.pdf": "/static/media/resume.3fdd3145349738c63ee4.pdf",
+    "static/media/bg3.jpg": "/static/media/bg3.a0f69aa1ff90c7a96c71.jpg",
+    "static/media/bg1.jpg": "/static/media/bg1.2ab6b40bed13beac4824.jpg",
+    "index.html": "/index.html",
+    "main.6c288783.css.map": "/static/css/main.6c288783.css.map",
+    "main.5fa744b2.js.map": "/static/js/main.5fa744b2.js.map",
+    "787.36b3e717.chunk.js.map": "/static/js/787.36b3e717.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c288783.css",
+    "static/js/main.5fa744b2.js"
+  ]
+}
