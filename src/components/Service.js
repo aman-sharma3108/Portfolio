@@ -9,7 +9,7 @@ export default function Services(){
             <div className="grid grid-cols-1 pb-8 text-center">
                 <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">What do i offer?</h3>
 
-                <p className="text-slate-400 max-w-xl mx-auto text-[15px]">Obviously I'm a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
+                <p className="text-slate-400 max-w-xl mx-auto text-[15px]">Web Developer with over 2 years of experience. Experienced with all stages of the development.</p>
             </div>
 
             <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
@@ -22,15 +22,15 @@ export default function Services(){
                     <div className="content mt-7">
                         <Link to="" className="title h5 text-[17px] font-medium hover:text-amber-500">{item.title}</Link>
                         <p className="text-slate-400 mt-3 text-[15px]">{item.desc}</p>
-                        
+
                         <div className="mt-5">
                             <Link href="" className="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500 inline-flex items-center gap-1">Read More <Unicons.UilArrowRight width={16}/></Link>
                         </div>
                     </div>
-                </div> 
+                </div>
                 )
                })}
-                 
+
             </div>
         </div>
     </section>

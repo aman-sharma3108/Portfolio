@@ -1,45 +1,67 @@
 import * as Icon from 'react-feather';
+import { PhpOriginal } from 'devicons-react';
+import { JavascriptOriginal } from 'devicons-react';
+import { JqueryOriginal } from 'devicons-react';
+// import { MysqlOriginalWordmark } from 'devicons-react';
+import { AmazonwebservicesOriginalWordmark } from 'devicons-react';
+import { GitOriginalWordmark } from 'devicons-react';
+import { NodejsOriginalWordmark } from 'devicons-react';
+import { VisualbasicOriginal } from 'devicons-react';
+import { ReactOriginal } from 'devicons-react';
+import { LaravelOriginal } from 'devicons-react';
+import { MysqlOriginal } from 'devicons-react';
+import { DjangorestOriginalWordmark } from 'devicons-react';
+import { CplusplusOriginal } from 'devicons-react';
+
 export const expertiseData = [
     {
-        title:'Developing',
-        Icon: Icon.Monitor
+        title:'PHP',
+        Icon: PhpOriginal
     },
     {
-        title:'Mac OS',
-        Icon: Icon.StopCircle
+        title:'JavaScript',
+        Icon: JavascriptOriginal
     },
     {
-        title:'Cinema',
-        Icon: Icon.Video
+        title:'Jquery',
+        Icon: JqueryOriginal
     },
     {
-        title:'Coffee',
-        Icon: Icon.Coffee
+        title:'MySQL',
+        Icon: MysqlOriginal
     },
     {
-        title:'Music',
-        Icon: Icon.Music
+        title:'Laravel',
+        Icon: LaravelOriginal
     },
     {
-        title:'Games',
-        Icon: Icon.Watch
+        title:'React',
+        Icon: ReactOriginal
     },
     {
-        title:'Designing',
-        Icon: Icon.Box
+        title:'Vb.NET',
+        Icon: VisualbasicOriginal
     },
     {
-        title:'Sports',
-        Icon: Icon.Target
+        title:'NodeJS',
+        Icon: NodejsOriginalWordmark
     },
     {
-        title:'Painting',
-        Icon: Icon.PenTool
+        title:'Git',
+        Icon: GitOriginalWordmark
     },
     {
-        title:'Reading',
-        Icon: Icon.Book
+        title:'AWS',
+        Icon: AmazonwebservicesOriginalWordmark
     },
+    {
+        title:'REST API',
+        Icon: DjangorestOriginalWordmark
+    },
+    {
+        title:'C++',
+        Icon: CplusplusOriginal
+    }
 ]
 export const servicesData = [
     {
@@ -115,7 +137,7 @@ export const project = [
     title:'Fronter Theme',
     subTitle: 'UI / UX Design',
    }
-   
+
 ]
 export const blogData = [
     {

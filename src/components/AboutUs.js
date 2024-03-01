@@ -4,7 +4,7 @@ import CountUp from 'react-countup';
 import { Link } from "react-router-dom";
 
 export default function AboutUs(){
-    
+
     return(
         <section className="relative md:py-24 py-16" id="about">
             <div className="container">
@@ -32,7 +32,7 @@ export default function AboutUs(){
 
                             <p className="text-slate-400 max-w-xl text-[15px]">Experienced Full Stack Developer with over two years of hands-on experience. Acquired comprehensive knowledge of software development while contributing to a startup-sized organization, mastering various aspects of the development lifecycle.</p>
                             <p className="text-slate-400 max-w-xl text-[15px] mt-6">Freelancing as a Website Designer - Making Websites for Local Melbourne Based Businesses.</p>
-                        
+
                             <div className="mt-6">
                                 <Link to="#project" className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md me-2 mt-2">See Work</Link>
                             </div>
@@ -43,7 +43,7 @@ export default function AboutUs(){
 
             <div className="container md:mt-24 mt-16">
                 <div className="grid grid-cols-1 pb-8 text-center">
-                    <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Hobbies & Expertise</h3>
+                    <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Skills</h3>
 
                     {/*<p className="text-slate-400 max-w-xl mx-auto text-[15px]">Obviously I'm a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>*/}
                 </div>
@@ -55,7 +55,7 @@ export default function AboutUs(){
                             <div className="flex group shadow shadow-gray-200 dark:shadow-gray-800 dark:hover:shadow-gray-700 items-center p-3 rounded-lg bg-white dark:bg-slate-900" key={index}>
                             <div className="flex items-center justify-center h-[45px] min-w-[45px] -rotate-45 bg-amber-500/10 group-hover:bg-amber-500 text-amber-500 group-hover:text-white text-center rounded-xl me-5 transition-all duration-500">
                                 <div className="rotate-45">
-                                   <Icon className="h-5 w-5"/>
+                                   <Icon className="h-5 w-5" />
                                 </div>
                             </div>
                             <div className="flex-1">

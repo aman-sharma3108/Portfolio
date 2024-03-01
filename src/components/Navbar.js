@@ -51,8 +51,8 @@ export default function Navbar(){
                             <span className="login-btn-primary "><span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"><Unicons.UilWhatsapp width={16}/></span></span>
                             <span className="login-btn-light "><span className="btn btn-icon btn-sm rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><Unicons.UilWhatsapp width={16}/></span></span>
                         </Link>
-                        <Link target="_blank" to="https://www.instagram.com/aman.sh3108/" className="ms-1">
-                            <span className="login-btn-primary"><span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"><Unicons.UilInstagram width={16}/></span></span>
+                        <Link target="_blank" to="https://github.com/aman-sharma3108" className="ms-1">
+                            <span className="login-btn-primary"><span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"><Unicons.UilGithub width={16}/></span></span>
                             <span className="login-btn-light"><span className="btn btn-icon btn-sm rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><Unicons.UilInstagram width={16}/></span></span>
                         </Link>
                     </li>
