@@ -3,7 +3,8 @@ import * as Unicons from '@iconscout/react-unicons'
 import { Link } from "react-router-dom";
 import axios from 'axios'; // Import Axios
 
-
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 export default function GetInTouch(){
     const [formData, setFormData] = useState({
         name: '',
@@ -23,8 +24,8 @@ export default function GetInTouch(){
         e.preventDefault();
         try {
             // Send form data to server
-            const response = await axios.post('http://localhost:4000/api/send_email', formData);
-            console.log('Response:', response.data);
+            const response = await axios.post('http://13.55.58.250/api/send_email', formData);
+            // console.log('Response:', response.data);
             // Reset form fields after successful submission
             setFormData({
                 name: '',
@@ -32,8 +33,9 @@ export default function GetInTouch(){
                 subject: '',
                 comments: ''
             });
+
         } catch (error) {
-            console.error('Error:', error);
+            // console.error('Error:', error);
         }
     };
     return(
@@ -68,7 +70,11 @@ export default function GetInTouch(){
                                     <textarea name="comments" value={formData.comments} onChange={handleChange} className="form-input w-full py-2 px-3 border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded h-28 outline-none bg-transparent focus:border-amber-500/50 dark:focus:border-amber-500/50 focus:shadow-none focus:ring-0 text-[15px]" placeholder="Message :"></textarea>
                                 </div>
                             </div>
-                            <button type="submit" id="submit" name="send" className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md h-11 justify-center flex items-center">Send Message</button>
+                            <Popup trigger={<button type="submit" id="submit" name="send" className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md h-11 justify-center flex items-center">Send Message</button>
+                            } position="center center" modal nested lockScroll={true} closeOnDocumentClick={true}>
+                                <div className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md h-11 justify-center flex items-center">
+                                    Email Sent. Thanks for taking the time !!</div>
+                            </Popup>
                         </form>
                     </div>
                 </div>
