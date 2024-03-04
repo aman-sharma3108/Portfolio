@@ -2,7 +2,6 @@ import * as Icon from 'react-feather';
 import { PhpOriginal } from 'devicons-react';
 import { JavascriptOriginal } from 'devicons-react';
 import { JqueryOriginal } from 'devicons-react';
-// import { MysqlOriginalWordmark } from 'devicons-react';
 import { AmazonwebservicesOriginalWordmark } from 'devicons-react';
 import { GitOriginalWordmark } from 'devicons-react';
 import { NodejsOriginalWordmark } from 'devicons-react';
@@ -10,8 +9,9 @@ import { VisualbasicOriginal } from 'devicons-react';
 import { ReactOriginal } from 'devicons-react';
 import { LaravelOriginal } from 'devicons-react';
 import { MysqlOriginal } from 'devicons-react';
+// import { DjangorestOriginalWordmark } from 'devicons-react';
+import { WordpressOriginal } from 'devicons-react';
 import { DjangorestOriginalWordmark } from 'devicons-react';
-import { CplusplusOriginal } from 'devicons-react';
 
 export const expertiseData = [
     {
@@ -59,47 +59,46 @@ export const expertiseData = [
         Icon: DjangorestOriginalWordmark
     },
     {
-        title:'C++',
-        Icon: CplusplusOriginal
+        title:'WordPress',
+        Icon: WordpressOriginal
     }
 ]
 export const servicesData = [
     {
-        title:'UX / UI Design',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
+        title:'Full-Stack Website Development',
+        desc:'Crafting dynamic, interactive websites with expertise in front-end design and back-end functionality.',
         Icon: Icon.Airplay
     },
     {
-        title:'Ios App Designer',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        Icon: Icon.Aperture
+        title:'AWS Cloud Solution and Development',
+        desc:' Leveraging Amazon Web Services (AWS) to architect scalable, secure, and cost-effective cloud solutions tailored to your business needs.',
+        Icon: AmazonwebservicesOriginalWordmark
     },
     {
-        title:'Photography',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        Icon: Icon.Camera
+        title:'REST API ',
+        desc:'Specialized in designing and implementing RESTful APIs for seamless client-server communication, focusing on scalability and security.',
+        Icon: DjangorestOriginalWordmark
     },
     {
-        title:'Graphic Designer',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        Icon: Icon.Compass
-    },
-    {
-        title:'Web Security',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
+        title:'Versatile Tech Mastery',
+        desc:'Quickly Adapting to New Languages and Frameworks as a Software Engineer.',
         Icon: Icon.Settings
     },
     {
-        title:'Web Security',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        Icon: Icon.Watch
-    },
+        title:'Collaborative Team Player',
+        desc:'Seamlessly integrates within multidisciplinary teams, fostering positive relationships and contributing to collective success.',
+        Icon: Icon.Target
+    },    {
+        title:'WordPress Website Development',
+        desc:' Specializing in customizable, user-friendly WordPress sites tailored to your needs.',
+        Icon: WordpressOriginal
+    }
 
 ]
 export const project = [
    {
     image: '/images/works/1.jpg',
-    title:'Fronter Theme',
+    title:'Petbooqz',
     subTitle: 'UI / UX Design',
    },
    {
